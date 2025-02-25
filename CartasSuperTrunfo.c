@@ -7,66 +7,37 @@
 //Teste larissa
 
 int main() {
-    char A1, A2, A3, A4 [20];
-    char cidade1, cidade2, cidade3, cidade4[100];
-    float PIB;
-    float area;
-    int pontos_turristicos;
+    char carta1[20], carta2[20];
+    char cidade1[100], cidade2[100];
+    float pib1, pib2;
+    float area1, area2;
+    int pontos_turristicos1, pontos_turristicos2;
 
 // PRIMEIRA CIDADE
 
-    printf("Codigo da primeira cidade:\n");
-    scanf("%s", &A1);
-    printf("Nome da primeira cidade:\n");
+    printf("Insira a carta da primeira cidade:\n");
+    scanf("%s", &carta1);
+    printf("Insira o Nome da primeira cidade:\n");
     scanf("%s",&cidade1);
-    printf("Area da cidade:\n");
-    scanf("%f", &area);
-    printf("PIB da cidade:\n");
-    scanf("%f", &PIB);
-    printf("Quantidade de pontos turristicos:\n");
-    scanf("%d", &pontos_turristicos);
-    
-// SEGUNDA CIDADE
+    printf("Insira a Area da cidade:\n");
+    scanf("%f", &area1);
+    printf("Insira o PIB da cidade:\n");
+    scanf("%f", &pib1);
+    printf("Insira a Quantidade de pontos turristicos:\n");
+    scanf("%d", &pontos_turristicos1);
 
-
-    printf("Codigo da segunda cidade:\n");
-    scanf("%s", &A2);
-    printf("Insira o nome da segunda cidade:\n");
-    scanf("%s", &cidade2);
-    printf("Infome a area da cidade:\n");
-    scanf("%f", &area);
-    printf("Informe o PIB da cidade:\n");
-    scanf("%f", &PIB);
-    printf("Informa a qauntidade de pontos turristicos:\n");
-    scanf("%d", &pontos_turristicos);
-
-//TERCEIRA CIDADE 
-
-    printf("Digite o codigo terceira cidade:\n");
-    scanf("%s", &A3);
-    printf("Insira o nome da terceira cidade:\n");
-    scanf("%s", &cidade3);
-    printf("Infome a area da cidade:\n");
-    scanf("%f", &area);
-    printf("Informe o PIB da cidade:\n");
-    scanf("%f", &PIB);
-    printf("Informa a qauntidade de pontos turristicos:\n");
-    scanf("%d", &pontos_turristicos);
-
-    //QUARTA CIDADE
-
-    printf("Digite o codigo quarta cidade:\n");
-    scanf("%s", &A4);
-    printf("Insira o nome da quarta cidade:\n");
-    scanf("%s", &cidade4);    
-    printf("Infome a area da cidade:\n");
-    scanf("%f", &area);
-    printf("Informe o PIB da cidade:\n");
-    scanf("%f", &PIB);
-    printf("Informa a quantidade de pontos turristicos:\n");
-    scanf("%d", &pontos_turristicos);
-
-
+    printf("Insira a carta da segunda cidade:\n");
+    scanf("%s", &carta2);
+    printf("Insira o Nome da segunda cidade:\n");
+    scanf("%s",&cidade2);
+    printf("Insira a Area da cidade:\n");
+    scanf("%f", &area2);
+    printf("Insira o PIB da cidade:\n");
+    scanf("%f", &pib2);
+    printf("Insira a Quantidade de pontos turristicos:\n");
+    scanf("%d", &pontos_turristicos2);   
+    printf("- carta: %s\n - cidade: %s\n - area: %f\n - pib: %f\n - pontos_turristicos: %d\n",carta1,cidade1,area1,pib1,pontos_turristicos1);
+    printf("- carta: %s\n - cidade: %s\n - area: %f\n - pib: %f\n - pontos_turristicos: %d\n",carta2,cidade2,area2,pib2,pontos_turristicos2);
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
